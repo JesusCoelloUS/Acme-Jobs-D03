@@ -121,7 +121,7 @@
 		<property name="ticker" value="ODFCG-12345"/>
 		<property name="title" value="This is the title of the offer"/>
 		<property name="creationMoment" value="2019/10/03 12:00"/>
-		<property name="deadline" value="2019/11/13 23:59"/>
+		<property name="deadline" value="2019/12/13 23:59"/>
 		<property name="text" value="Here we are describing this offer"/>
 		<property name="minMoney" value="150"/>
 		<property name="maxMoney" value="160"/>
@@ -131,7 +131,7 @@
 		<property name="ticker" value="OxvZB-19273"/>
 		<property name="title" value="This is the title of the offer"/>
 		<property name="creationMoment" value="2019/11/01 12:00"/>
-		<property name="deadline" value="2019/11/13 23:59"/>
+		<property name="deadline" value="2019/12/13 23:59"/>
 		<property name="text" value="Here we are describing this offer"/>
 		<property name="minMoney" value="50"/>
 		<property name="maxMoney" value="60"/>

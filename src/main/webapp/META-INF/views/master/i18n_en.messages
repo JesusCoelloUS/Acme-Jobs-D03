@@ -46,6 +46,7 @@ master.menu.anonymous.bulletin.create = New bulletin
 master.menu.anonymous.records = Records
 master.menu.anonymous.investor-record.list = List investor records
 master.menu.anonymous.company-record.list	= List company records
+master.menu.administrator.investor-record.create = New investor record
 
 master.menu.anonymous.announcements = Announcements
 master.menu.anonymous.announcement.list = List announcements

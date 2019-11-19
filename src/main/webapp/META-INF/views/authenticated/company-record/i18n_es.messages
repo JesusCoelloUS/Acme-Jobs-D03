@@ -22,3 +22,7 @@ authenticated.company-record.form.label.description = Descripción
 authenticated.company-record.form.label.CEO = CEO
 authenticated.company-record.form.label.stars = Estrellas
 authenticated.company-record.form.button.return = Volver
+
+administrator.company-record.form.button.update = Editar
+administrator.company-record.form.button.delete = Eliminar
+administrator.company-record.form.button.create = Crear

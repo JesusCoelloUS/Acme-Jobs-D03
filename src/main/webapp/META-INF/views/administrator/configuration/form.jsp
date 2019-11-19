@@ -18,4 +18,8 @@
 <acme:form>
 	<acme:form-textarea code="administrator.configuration.form.label.spamWords" path="spamWords"/>
 	<acme:form-textbox code="administrator.configuration.form.label.threshold" path="threshold"/>
+
+	<acme:form-submit test="${command == 'update' }" code="administrator.configuration.form.button.update" action="/administrator/configuration/update"/>
+	<acme:form-submit test="${command == 'show' }" code="administrator.configuration.form.button.update" action="/administrator/configuration/update"/>
+	<acme:form-return code="administrator.configuration.form.button.return"/>
 </acme:form>

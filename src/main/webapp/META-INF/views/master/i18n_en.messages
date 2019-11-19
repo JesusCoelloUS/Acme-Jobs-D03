@@ -61,6 +61,7 @@ master.menu.administrator.announcement.create = New announcement
 master.menu.authenticated.records = Records
 master.menu.authenticated.company-record.list = List company records
 master.menu.authenticated.investor-record.list = List investor records
+master.menu.administrator.company-record.create = Create a company record
 
 master.menu.authenticated.requests = Requests
 master.menu.authenticated.request.list = List requests

@@ -61,6 +61,7 @@ master.menu.administrator.announcement.create = Nuevo anuncio
 master.menu.authenticated.records = Informes
 master.menu.authenticated.company-record.list = Listar informes de compañía
 master.menu.authenticated.investor-record.list = Lista de informes de interes
+master.menu.administrator.company-record.create = Crear informe de compañía
 
 master.menu.authenticated.requests = Solicitudes
 master.menu.authenticated.request.list = Ver solicitudes

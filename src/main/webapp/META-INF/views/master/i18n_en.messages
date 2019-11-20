@@ -57,10 +57,12 @@ master.menu.authenticated = Authenticated
 
 master.menu.authenticated.announcements = Announcements
 master.menu.authenticated.announcement.list = List announcements
+master.menu.administrator.announcement.create = New announcement
 
 master.menu.authenticated.records = Records
 master.menu.authenticated.company-record.list = List company records
 master.menu.authenticated.investor-record.list = List investor records
+master.menu.administrator.company-record.create = Create a company record
 
 master.menu.authenticated.requests = Requests
 master.menu.authenticated.request.list = List requests
@@ -77,7 +79,7 @@ master.menu.administrator = Administrator
 master.menu.administrator.user-accounts = User accounts
 master.menu.administrator.shutdown = Shut down
 master.menu.administrator.configuration = Configuration
-master.menu.administrator.announcement.list.all = List of announcements (all)
+master.menu.administrator.announcement.list.administrator = List of announcements (administrator)
 
 # master.menu.provider ########################################################
 

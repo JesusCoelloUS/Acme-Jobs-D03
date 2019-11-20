@@ -57,10 +57,12 @@ master.menu.authenticated = Autentificado
 
 master.menu.authenticated.announcements = Anuncios
 master.menu.authenticated.announcement.list = Ver anuncios
+master.menu.administrator.announcement.create = Nuevo anuncio
 
 master.menu.authenticated.records = Informes
 master.menu.authenticated.company-record.list = Listar informes de compañía
 master.menu.authenticated.investor-record.list = Lista de informes de interes
+master.menu.administrator.company-record.create = Crear informe de compañía
 
 master.menu.authenticated.requests = Solicitudes
 master.menu.authenticated.request.list = Ver solicitudes
@@ -77,7 +79,7 @@ master.menu.administrator = Administrador
 master.menu.administrator.user-accounts = Cuentas de usuario
 master.menu.administrator.shutdown = Parar el sistema
 master.menu.administrator.configuration = Configuración
-master.menu.administrator.announcement.list.all = Ver anuncios (todos)
+master.menu.administrator.announcement.list.administrator = Ver anuncios (administrador)
 
 # master.menu.provider ########################################################
 

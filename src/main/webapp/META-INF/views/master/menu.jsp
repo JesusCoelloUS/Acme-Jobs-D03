@@ -52,11 +52,13 @@
 		
 		<acme:menu-option code="master.menu.authenticated.announcements" access="isAuthenticated()">
 			<acme:menu-suboption code="master.menu.authenticated.announcement.list" action="/authenticated/announcement/list"/>
-			<acme:menu-suboption code="master.menu.administrator.announcement.list.all" action="/administrator/announcement/list" access="hasRole('Administrator')"/>
+			<acme:menu-suboption code="master.menu.administrator.announcement.list.administrator" action="/administrator/announcement/list" access="hasRole('Administrator')"/>
+			<acme:menu-suboption code="master.menu.administrator.announcement.create" action="/administrator/announcement/create" access="hasRole('Administrator')"/>
 		</acme:menu-option>
 		
 		<acme:menu-option code="master.menu.authenticated.records" access="isAuthenticated()">
 			<acme:menu-suboption code="master.menu.authenticated.company-record.list" action="/authenticated/company-record/list"/>
+      		<acme:menu-suboption code="master.menu.administrator.company-record.create" action="/administrator/company-record/create" access="hasRole('Administrator')"/>
       		<acme:menu-suboption code="master.menu.authenticated.investor-record.list" action="/authenticated/investor-record/list"/>
       		<acme:menu-suboption code="master.menu.administrator.investor-record.create" action="/administrator/investor-record/create" access="hasRole('Administrator')"/>
       	</acme:menu-option>

@@ -13,3 +13,5 @@ administrator.configuration.list.label.threshold = Umbral
 
 administrator.configuration.form.label.spamWords = Palabras spam
 administrator.configuration.form.label.threshold = Umbral
+administrator.configuration.form.button.update = Actualizar
+administrator.configuration.form.button.return = Volver

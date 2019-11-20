@@ -21,4 +21,6 @@ authenticated.challenge.form.label.goldGoal = Gold goal
 authenticated.challenge.form.label.silverGoal = Silver goal
 authenticated.challenge.form.label.bronzeGoal = Bronze goal
 
+administrator.challenge.form.button.update = Update
+administrator.challenge.form.button.delete = Delete
 authenticated.challenge.form.button.return = Return

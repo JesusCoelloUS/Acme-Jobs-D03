@@ -63,6 +63,7 @@
       	
       	<acme:menu-option code="master.menu.authenticated.offers" access="isAuthenticated()">
 			<acme:menu-suboption code="master.menu.authenticated.offer.list" action="/authenticated/offer/list"/>
+			<acme:menu-suboption code="master.menu.consumer.offer.create" action="/consumer/offer/create" access="hasRole('Consumer')"/>
 		</acme:menu-option>
 		
 		<acme:menu-option code="master.menu.authenticated.challenges" access="isAuthenticated()">

@@ -1,4 +1,4 @@
-# i18n_en.messages
+﻿# i18n_en.messages
 #
 # Copyright (c) 2019 Rafael Corchuelo.
 #
@@ -88,6 +88,7 @@ master.menu.provider.favourite-link = Favourite link
 
 master.menu.consumer = Consumer
 master.menu.consumer.favourite-link = Favourite link
+master.menu.consumer.offer.create = New offer
 
 # master.menu.user-account ####################################################
 

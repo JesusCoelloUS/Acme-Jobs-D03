@@ -17,13 +17,9 @@
 	"http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
 
 <tiles-definitions>
-
-	<definition name="authenticated/request/list" extends="master">		
-		<put-attribute name="body" type="template" value="../authenticated/request/list.jsp" />
-	</definition>
 	
-	<definition name="authenticated/request/form" extends="master">
-		<put-attribute name="body" type="template" value="../authenticated/request/form.jsp" />
+	<definition name="provider/request/form" extends="master">
+		<put-attribute name="body" type="template" value="../provider/request/form.jsp" />
 	</definition>
 
 </tiles-definitions>

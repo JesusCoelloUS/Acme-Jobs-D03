@@ -34,7 +34,7 @@ public class AuthenticatedRequestShowService implements AbstractShowService<Auth
 	public Request findOne(final acme.framework.components.Request<Request> request) {
 		assert request != null;
 		int id = request.getModel().getInteger("id");
-		Request res = this.repository.findOneById(id);
+		Request res = this.repository.findOneRequestById(id);
 		return res;
 	}
 

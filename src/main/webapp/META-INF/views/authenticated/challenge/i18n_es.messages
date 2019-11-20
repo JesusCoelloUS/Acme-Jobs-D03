@@ -20,4 +20,7 @@ authenticated.challenge.form.label.bronzeReward = Recompesa de bronce
 authenticated.challenge.form.label.goldGoal = Objetivo oro
 authenticated.challenge.form.label.silverGoal = Objetivo plata
 authenticated.challenge.form.label.bronzeGoal = Objetivo bronce
+
+administrator.challenge.form.button.update = Actualizar
+administrator.challenge.form.button.delete = Eliminar
 authenticated.challenge.form.button.return = Volver

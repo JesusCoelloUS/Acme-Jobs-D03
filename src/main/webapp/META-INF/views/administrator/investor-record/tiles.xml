@@ -18,12 +18,9 @@
 
 <tiles-definitions>
 
-	<definition name="authenticated/company-record/list" extends="master">		
-		<put-attribute name="body" type="template" value="../authenticated/company-record/list.jsp" />
-	</definition>
 	
-	<definition name="authenticated/company-record/form" extends="master">
-		<put-attribute name="body" type="template" value="../authenticated/company-record/form.jsp" />
+	<definition name="administrator/investor-record/form" extends="master">
+		<put-attribute name="body" type="template" value="../administrator/investor-record/form.jsp" />
 	</definition>
-	
+
 </tiles-definitions>

@@ -13,3 +13,5 @@ administrator.configuration.list.label.threshold = Threshold
 
 administrator.configuration.form.label.spamWords = Spam words
 administrator.configuration.form.label.threshold = Threshold
+administrator.configuration.form.button.update = Update
+administrator.configuration.form.button.return = Return

@@ -48,6 +48,7 @@
 		
 		<acme:menu-option code="master.menu.authenticated.requests" access="isAuthenticated()">
 			<acme:menu-suboption code="master.menu.authenticated.request.list" action="/authenticated/request/list"/>
+			<acme:menu-suboption code="master.menu.provider.request.create" action="/provider/request/create" access="hasRole('Provider')"/>
 		</acme:menu-option>
 		
 		<acme:menu-option code="master.menu.authenticated.announcements" access="isAuthenticated()">

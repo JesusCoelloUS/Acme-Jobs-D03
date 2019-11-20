@@ -24,7 +24,21 @@
 		million dollar,sexo,duro,has ganado,millón de dólares"/>
 		<property name="threshold" value="1.00"/>
 	</bean>
-
+	
+	 <!-- Provider -->
+<!--  
+	<bean id = "provider01" class="acme.entities.roles.Provider">
+		<property name="company" value="acme"/>
+		<property name="sector" value="jobs"/>	
+		<property name="username" value="provider01"/>
+		<property name="password" value="provider01"/>
+		<property name = "enable" value = "true"/>
+		<property name = "identity" value = "provider01"/>
+		<property name = "annonymous" value = " false"/>
+	</bean>
+	
+	 -->
+	
 	<!-- Shouts -->
 	
 	<bean id="shout01" class="acme.entities.shouts.Shout">

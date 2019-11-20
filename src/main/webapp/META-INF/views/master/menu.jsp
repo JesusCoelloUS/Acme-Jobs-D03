@@ -60,10 +60,12 @@
 			<acme:menu-suboption code="master.menu.authenticated.company-record.list" action="/authenticated/company-record/list"/>
       		<acme:menu-suboption code="master.menu.administrator.company-record.create" action="/administrator/company-record/create" access="hasRole('Administrator')"/>
       		<acme:menu-suboption code="master.menu.authenticated.investor-record.list" action="/authenticated/investor-record/list"/>
+      		<acme:menu-suboption code="master.menu.administrator.investor-record.create" action="/administrator/investor-record/create" access="hasRole('Administrator')"/>
       	</acme:menu-option>
       	
       	<acme:menu-option code="master.menu.authenticated.offers" access="isAuthenticated()">
 			<acme:menu-suboption code="master.menu.authenticated.offer.list" action="/authenticated/offer/list"/>
+			<acme:menu-suboption code="master.menu.consumer.offer.create" action="/consumer/offer/create" access="hasRole('Consumer')"/>
 		</acme:menu-option>
 		
 		<acme:menu-option code="master.menu.authenticated.challenges" access="isAuthenticated()">

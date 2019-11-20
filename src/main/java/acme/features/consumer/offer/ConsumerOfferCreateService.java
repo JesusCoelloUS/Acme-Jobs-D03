@@ -59,8 +59,8 @@ public class ConsumerOfferCreateService implements AbstractCreateService<Consume
 		assert entity != null;
 		assert errors != null;
 
-		Boolean isAccepted = request.getModel().getBoolean("checked");
-		errors.state(request, isAccepted, "checked", "consumer.offer.error.must-check");
+		Boolean isChecked = request.getModel().getBoolean("checked");
+		errors.state(request, isChecked, "checked", "consumer.offer.error.must-check");
 	}
 
 	@Override

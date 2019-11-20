@@ -1,4 +1,4 @@
-﻿# i18n_en.messages
+# i18n_en.messages
 #
 # Copyright (c) 2019 Rafael Corchuelo.
 #
@@ -28,48 +28,35 @@ master.menu.sign-out = Sign out
 # master.menu.anonymous #######################################################
 
 master.menu.anonymous = Anonymous
-
 master.menu.anonymous.links = Links
 master.menu.anonymous.favourite-link.jescoevas = Favourite link of jescoevas
 master.menu.anonymous.favourite-link.frankrogo = Favourite link of frankrogo
 master.menu.anonymous.favourite-link.AleVazEnc = Favourite link of AleVazEnc
 master.menu.anonymous.favourite-link.serperrui1 = Favourite link of serperrui1
-
 master.menu.anonymous.shouts = Shouts
 master.menu.anonymous.shout.list = List shouts
 master.menu.anonymous.shout.create = New shout
-
 master.menu.anonymous.bulletins = Bulletins
 master.menu.anonymous.bulletin.list = List bulletins
 master.menu.anonymous.bulletin.create = New bulletin
-
 master.menu.anonymous.records = Records
 master.menu.anonymous.investor-record.list = List investor records
 master.menu.anonymous.company-record.list	= List company records
-master.menu.administrator.investor-record.create = New investor record
-
 master.menu.anonymous.announcements = Announcements
 master.menu.anonymous.announcement.list = List announcements
 
 # master.menu.authenticated ###################################################
 
 master.menu.authenticated = Authenticated
-
 master.menu.authenticated.announcements = Announcements
 master.menu.authenticated.announcement.list = List announcements
-master.menu.administrator.announcement.create = New announcement
-
 master.menu.authenticated.records = Records
 master.menu.authenticated.company-record.list = List company records
 master.menu.authenticated.investor-record.list = List investor records
-master.menu.administrator.company-record.create = Create a company record
-
 master.menu.authenticated.requests = Requests
 master.menu.authenticated.request.list = List requests
-
 master.menu.authenticated.offers = Offers
 master.menu.authenticated.offer.list = List offers
-
 master.menu.authenticated.challenges = Challenges
 master.menu.authenticated.challenge.list = List challenges
 
@@ -80,16 +67,19 @@ master.menu.administrator.user-accounts = User accounts
 master.menu.administrator.shutdown = Shut down
 master.menu.administrator.configuration = Configuration
 master.menu.administrator.announcement.list.administrator = List of announcements (administrator)
+master.menu.administrator.investor-record.create = New investor record
+master.menu.administrator.company-record.create = New company record
+master.menu.administrator.announcement.create = New announcement
+master.menu.administrator.challenge.create	= New challenge
 
 # master.menu.provider ########################################################
 
 master.menu.provider = Provider
-master.menu.provider.favourite-link = Favourite link
+master.menu.provider.request.create = New request
 
 # master.menu.consumer ##########################################################
 
 master.menu.consumer = Consumer
-master.menu.consumer.favourite-link = Favourite link
 master.menu.consumer.offer.create = New offer
 
 # master.menu.user-account ####################################################

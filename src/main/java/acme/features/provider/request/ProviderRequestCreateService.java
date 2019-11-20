@@ -61,8 +61,8 @@ public class ProviderRequestCreateService implements AbstractCreateService<Provi
 		assert entity != null;
 		assert errors != null;
 
-		Boolean isAccepted = request.getModel().getBoolean("checked");
-		errors.state(request, isAccepted, "checked", "provider.request.error.must-check");
+		Boolean isChecked = request.getModel().getBoolean("checked");
+		errors.state(request, isChecked, "checked", "provider.request.error.must-check");
 	}
 
 	@Override

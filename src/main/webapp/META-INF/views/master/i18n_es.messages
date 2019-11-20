@@ -1,4 +1,4 @@
-﻿# i18n_es.messages
+# i18n_es.messages
 #
 # Copyright (c) 2019 Rafael Corchuelo.
 #
@@ -28,48 +28,35 @@ master.menu.sign-out = Salir
 # master.menu.anonymous #######################################################
 
 master.menu.anonymous = Anónimo
-
 master.menu.anonymous.links = Enlaces
 master.menu.anonymous.favourite-link.jescoevas = Enlace favorito de jescoevas
 master.menu.anonymous.favourite-link.frankrogo = Enlace favorito de frankrogo
 master.menu.anonymous.favourite-link.AleVazEnc = Enlace favorito de Alevazenc
 master.menu.anonymous.favourite-link.serperrui1 = Enlace favorito de serperrui1
-
 master.menu.anonymous.shouts = Gritos
 master.menu.anonymous.shout.list = Ver gritos
 master.menu.anonymous.shout.create = Nuevo grito
-
 master.menu.anonymous.bulletins = Boletines
 master.menu.anonymous.bulletin.list = Ver boletines
 master.menu.anonymous.bulletin.create = Nuevo boletín
-
 master.menu.anonymous.records = Informes
 master.menu.anonymous.investor-record.list = Ver informes de inversor
 master.menu.anonymous.company-record.list = Ver informes de compañía
-master.menu.administrator.investor-record.create = Nuevo informe de inversor
-
 master.menu.anonymous.announcements = Anuncios
 master.menu.anonymous.announcement.list = Ver anuncios
 
 # master.menu.authenticated ###################################################
 
 master.menu.authenticated = Autentificado
-
 master.menu.authenticated.announcements = Anuncios
 master.menu.authenticated.announcement.list = Ver anuncios
-master.menu.administrator.announcement.create = Nuevo anuncio
-
 master.menu.authenticated.records = Informes
-master.menu.authenticated.company-record.list = Listar informes de compañía
-master.menu.authenticated.investor-record.list = Lista de informes de interes
-master.menu.administrator.company-record.create = Crear informe de compañía
-
+master.menu.authenticated.company-record.list = Ver informes de compañía
+master.menu.authenticated.investor-record.list = Ver de informes de inversor
 master.menu.authenticated.requests = Solicitudes
 master.menu.authenticated.request.list = Ver solicitudes
-
 master.menu.authenticated.offers = Ofertas
 master.menu.authenticated.offer.list = Ver ofertas
-
 master.menu.authenticated.challenges = Desafíos
 master.menu.authenticated.challenge.list = Ver desafíos
 
@@ -80,16 +67,18 @@ master.menu.administrator.user-accounts = Cuentas de usuario
 master.menu.administrator.shutdown = Parar el sistema
 master.menu.administrator.configuration = Configuración
 master.menu.administrator.announcement.list.administrator = Ver anuncios (administrador)
+master.menu.administrator.investor-record.create = Nuevo informe de inversor
+master.menu.administrator.announcement.create = Nuevo anuncio
+master.menu.administrator.company-record.create = Nuevo informe de compañía
 
 # master.menu.provider ########################################################
 
 master.menu.provider = Proveedor
-master.menu.provider.favourite-link = Enlace favorito
+master.menu.provider.request.create = Nueva solicitud
 
 # master.menu.consumer ##########################################################
 
 master.menu.consumer = Consumidor
-master.menu.consumer.favourite-link = Enlace favorito
 master.menu.consumer.offer.create = Nueva oferta
 
 # master.menu.user-account ####################################################
